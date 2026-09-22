@@ -1,212 +1,292 @@
-# Introduction to Programming
+# Introduction to Programming — C++
 
-A collection of programming exercises, practical assignments, and projects completed during my **Introduction to Programming** course.
+A collection of **C++ programs, class activities, exercises, and assignments** completed during my Introduction to Programming course.
 
-This repository documents my early programming journey and the foundational concepts I learned while developing my problem-solving and programming skills.
+This repository documents my early programming journey and demonstrates the progression of concepts I learned, from basic C++ syntax and input/output to control structures, loops, arrays, namespaces, file handling, and small practical applications.
 
-## About the Repository
+---
 
-The programs in this repository were developed as part of my Introduction to Programming coursework. They cover fundamental programming concepts, including variables, data types, operators, conditional statements, loops, functions, data structures, file handling, and basic problem-solving.
+## Course Overview
 
-The repository also serves as a record of my progression from learning basic programming syntax to developing complete programs that solve practical problems.
+The repository contains practical exercises covering fundamental programming concepts using **C++**.
 
-## Programming Language
+The programs were developed through class activities, assignments, and individual exercises as I progressed through the course.
 
-* **Python**
+### Main Concepts Covered
 
-## Topics Covered
+* C++ fundamentals
+* Variables and data types
+* Input and output
+* Operators
+* Conditional statements
+* Switch-case statements
+* Ternary operators
+* Loops
+* Arrays
+* Functions
+* Namespaces
+* Header files
+* Mathematical operations
+* File handling
+* Basic problem solving
+* Small console-based applications
 
-### 1. Variables and Data Types
+---
 
-Programs demonstrating the use of:
+## Repository Contents
 
-* Variables
-* Strings
-* Integers
-* Floating-point numbers
-* Boolean values
-* Type conversion
-* User input and output
+### 1. C++ Basics
 
-### 2. Operators
+These programs introduce fundamental C++ syntax and basic program structure.
 
-Exercises involving:
+| File                  | Description                                               |
+| --------------------- | --------------------------------------------------------- |
+| `HelloWorld.cpp`      | Introduction to writing and executing a basic C++ program |
+| `Input.cpp`           | Working with user input                                   |
+| `OutputTest.cpp`      | Basic output operations                                   |
+| `InputOutputTest.cpp` | Combining input and output                                |
+| `EscapeSequence.cpp`  | Working with escape sequences                             |
+| `operators.cpp`       | Introduction to C++ operators                             |
 
-* Arithmetic operators
-* Comparison operators
-* Logical operators
-* Assignment operators
-* Operator precedence
+---
 
-### 3. Conditional Statements
+### 2. Conditional Statements
 
-Programs using decision-making structures such as:
+Programs demonstrating decision-making and controlling program execution based on conditions.
 
-* `if`
-* `elif`
-* `else`
-* Nested conditional statements
+| File                               | Concept                                             |
+| ---------------------------------- | --------------------------------------------------- |
+| `if.cpp`                           | Basic `if` statements                               |
+| `ifElseifElse.cpp`                 | `if`, `else if`, and `else` statements              |
+| `SwitchCase.cpp`                   | `switch` and `case` statements                      |
+| `PreSchoolSwitchCaseAdmission.cpp` | Applying switch-case logic to an admission scenario |
+| `TernaryOperator.cpp`              | Conditional/ternary operator                        |
+| `PasswordCheck.cpp`                | Basic conditional password checking                 |
 
-Examples include programs that determine results based on user input and perform different actions depending on specified conditions.
+---
 
-### 4. Loops
+### 3. Loops
 
-Programs demonstrating repetition using:
+Exercises demonstrating repetition and iteration in C++.
 
-* `for` loops
-* `while` loops
-* Nested loops
-* Loop control
-* `break`
-* `continue`
+| File                    | Concept                              |
+| ----------------------- | ------------------------------------ |
+| `ForLoop.cpp`           | Basic `for` loops                    |
+| `ForLoopOdd.cpp`        | Using loops to work with odd numbers |
+| `WhileLoop.cpp`         | Basic `while` loops                  |
+| `WhileLoopSum.cpp`      | Using a `while` loop for summation   |
+| `DoWhileLoop.cpp`       | `do-while` loops                     |
+| `simpleDoWhileLoop.cpp` | Basic `do-while` implementation      |
 
-These exercises helped develop an understanding of iteration and repetitive problem-solving.
+These exercises helped develop an understanding of how programs can repeatedly execute a block of code based on a condition.
 
-### 5. Functions
+---
 
-Programs demonstrating:
+### 4. Numbers and Mathematical Operations
 
-* Defining functions
-* Calling functions
-* Parameters and arguments
-* Return values
-* Reusable code
-* Scope of variables
+Programs focused on mathematical calculations and number-based problem solving.
 
-Functions were used to break larger problems into smaller, manageable components.
+| File              | Description                                                |
+| ----------------- | ---------------------------------------------------------- |
+| `EvenNumber.cpp`  | Working with even numbers                                  |
+| `PrimeNumber.cpp` | Identifying prime numbers                                  |
+| `MathLib.cpp`     | Working with mathematical operations/library functionality |
 
-### 6. Lists and Other Data Structures
+---
 
-Exercises involving basic Python data structures, including:
+### 5. Arrays
 
-* Lists
-* Tuples
-* Dictionaries
-* Sets
+| File              | Description                                        |
+| ----------------- | -------------------------------------------------- |
+| `SimpleArray.cpp` | Introduction to arrays and storing multiple values |
 
-These programs demonstrate how collections of data can be stored, accessed, modified, and processed.
+This introduced the concept of storing and processing collections of values within a program.
 
-### 7. Strings
+---
 
-String manipulation exercises covering:
+### 6. Namespaces and Header Files
 
-* String formatting
-* Concatenation
-* Indexing
-* Slicing
-* Searching
-* String methods
-* Character processing
+Programs demonstrating ways of organizing and structuring C++ code.
 
-### 8. File Handling
+| File                  | Description                             |
+| --------------------- | --------------------------------------- |
+| `Namespace.cpp`       | Working with namespaces                 |
+| `ChronoNamespace.cpp` | Working with the `chrono` namespace     |
+| `ExampleHeader.h`     | Example custom header file              |
+| `MathLib.cpp`         | Working with mathematical functionality |
 
-Programs demonstrating basic file operations, including:
+These exercises provided an introduction to organizing code and using functionality from libraries and headers.
 
-* Creating files
-* Reading files
-* Writing to files
-* Appending data
-* Processing information stored in files
+---
 
-### 9. Basic Problem Solving
+### 7. File Handling
 
-The repository contains several programming exercises designed to develop logical thinking and computational problem-solving skills.
+Programs demonstrating basic interaction with files.
 
-Examples include:
+| File          | Description                                         |
+| ------------- | --------------------------------------------------- |
+| `FStream.cpp` | File input/output using C++ streams                 |
+| `output.txt`  | Example text output generated during exercises      |
+| `output.pdf`  | Example output/document generated during coursework |
 
-* Mathematical calculations
-* Number-based problems
-* Menu-driven programs
-* Input validation
-* Simple data processing
-* Pattern generation
-* Basic simulations
+The file-handling exercises introduced concepts such as reading from and writing to files.
 
-## Repository Structure
+---
+
+## Practical Applications & Assignments
+
+The repository also contains larger class activities and assignments that combine multiple programming concepts.
+
+### Admission Application
+
+`AdmissionApp.cpp`
+
+A console-based application demonstrating programming logic around an admission-related scenario.
+
+### Strathmore Program
+
+`Strathmore.cpp`
+
+A program developed around a Strathmore-related programming exercise.
+
+### Timetable
+
+`Timetable.cpp`
+
+A console-based program demonstrating structured input, output, and programming logic.
+
+### Profile
+
+`profile.cpp`
+
+A program demonstrating the use of C++ to work with profile-related information.
+
+### Assignment
+
+`assignment.cpp`
+
+A completed C++ programming assignment covering multiple questions and programming concepts.
+
+### Love
+
+`love.cpp`
+
+A simple programming exercise created as part of the coursework.
+
+---
+
+## ⚙️ Compiled Programs
+
+The repository also contains compiled Windows executables (`.exe`) corresponding to several of the C++ source files.
+
+For example:
 
 ```text
-Introduction-to-Programming/
-│
-├── README.md
-│
-├── basics/
-│   ├── variables.py
-│   ├── data_types.py
-│   └── input_output.py
-│
-├── conditionals/
-│   ├── if_else.py
-│   └── decision_making.py
-│
-├── loops/
-│   ├── for_loops.py
-│   ├── while_loops.py
-│   └── nested_loops.py
-│
-├── functions/
-│   ├── functions.py
-│   └── calculator.py
-│
-├── data_structures/
-│   ├── lists.py
-│   ├── tuples.py
-│   ├── dictionaries.py
-│   └── sets.py
-│
-├── strings/
-│   └── string_operations.py
-│
-└── file_handling/
-    └── file_operations.py
+HelloWorld.cpp
+HelloWorld.exe
 ```
 
-> The exact folder and file structure may vary depending on how the coursework was organized.
+The `.cpp` files contain the **source code**, while the `.exe` files are compiled Windows executables.
 
-## Learning Outcomes
+For learning and version control purposes, the `.cpp` source files are the primary focus of this repository.
 
-Through these exercises, I developed an understanding of:
+---
 
-* Programming fundamentals
-* Computational thinking
-* Algorithmic problem solving
-* Writing and organizing Python code
-* Debugging programming errors
-* Using functions and reusable code
-* Working with different data types
-* Processing user input
-* Working with collections of data
-* Basic file operations
+## Skills Demonstrated
 
-## My Programming Journey
+Through these programs, I gained practical experience with:
 
-This repository represents some of my earliest practical programming work.
+* C++ syntax and program structure
+* Variables and data types
+* Console input and output
+* Arithmetic and logical operators
+* Conditional logic
+* `if`, `else if`, and `else`
+* `switch` statements
+* Ternary operators
+* `for` loops
+* `while` loops
+* `do-while` loops
+* Arrays
+* Number-based algorithms
+* Basic mathematical operations
+* Namespaces
+* Header files
+* File input/output
+* Basic application development
+* Debugging and problem solving
 
-Coming from a background where I initially had limited exposure to computer programming, the Introduction to Programming course provided the foundation for my later studies in **Computer Networks and Cybersecurity**.
+---
 
-The concepts learned here became useful in later areas of my studies, particularly scripting, cybersecurity, networking, automation, and security-related programming.
+## Technologies
 
-## Future Improvements
+**Language:**
 
-As I continue developing my programming skills, I plan to:
+* C++
 
-* Refactor some of the earlier programs
-* Improve code documentation
-* Add error handling and input validation
-* Apply more advanced Python concepts
-* Convert selected exercises into standalone projects
-* Add automated tests where appropriate
-* Document the lessons learned from each project
+**Development Environment:**
+
+* Visual Studio Code
+
+**Compiler:**
+
+* C++ compiler / GNU GCC-based toolchain
+
+**Operating System:**
+
+* Windows
+
+---
+
+## 📈 Learning Progression
+
+The repository reflects my progression through the fundamentals of programming:
+
+```text
+C++ Basics
+     ↓
+Input & Output
+     ↓
+Operators
+     ↓
+Conditional Statements
+     ↓
+Switch & Ternary Operators
+     ↓
+Loops
+     ↓
+Number-Based Problems
+     ↓
+Arrays
+     ↓
+Namespaces & Headers
+     ↓
+File Handling
+     ↓
+Practical Applications & Assignments
+```
+
+---
+
+## Purpose of This Repository
+
+This repository serves as a record of my **Introduction to Programming coursework** and my development of foundational programming and problem-solving skills.
+
+It also provides a reference point for understanding the programming concepts that formed the foundation for my later studies in **Computer Networks and Cybersecurity**.
+
+---
 
 ## Author
 
 **Tony Kaiko**
 
 BSc Computer Networks & Cybersecurity
-
 Strathmore University
 
-GitHub: **[@amoyah003](https://github.com/amoyah003)**
+GitHub: [@amoyah003](https://github.com/amoyah003)
 
 ---
 
-*This repository contains coursework and programming exercises developed during my Introduction to Programming studies.*
+## 📌 Note
+
+These programs were developed primarily as **learning exercises and class activities**. They represent different stages of my programming development and are intentionally preserved as part of my learning history.
